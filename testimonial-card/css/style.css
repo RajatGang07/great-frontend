@@ -16,6 +16,57 @@ body {
   box-sizing: border-box;
 }
 
+.card {
+  max-width: 340px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+}
+
+.header {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  gap: 16px;
+}
+
+img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.user-info {
+}
+
+.name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.username {
+  font-size: 14px;
+  color: #777;
+}
+
+.testimonial {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+p {
+  text-align: left;
+  
+}
+
 .credits {
   color: #777;
   position: fixed;
